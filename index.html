@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>WASM Demo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container p-4">
+        <h1 class="text-center pt-4">WASM Add Function Demo</h1>
+        <h5 class="text-center">by StarmanW</h5>
+        <hr>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="form-group">
+                    <input type="number" class="form-control" value="0" name="num1" id="num1"
+                        placeholder="First number" autofocus>
+                </div>
+            </div>
+            <div class="col-md-2 text-center"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <input type="number" class="form-control" value="0" name="num2" id="num2"
+                        placeholder="Second number">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" name="addNumBtn" id="addNumBtn" class="btn btn-primary btn-lg btn-block">Add
+                    Number</button>
+            </div>
+            <div class="col-md-6"> <button type="button" name="clearBtn" id="clearBtn"
+                    class="btn btn-danger btn-lg btn-block">Clear</button></div>
+        </div>
+
+        <h3 class="mt-5">Result: <span id="resultOutput">0</span></h3>
+    </div>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</body>
+
+</html>
